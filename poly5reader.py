@@ -185,7 +185,7 @@ class Poly5Reader:
                 print('Reading data failed, because of the following error:\n')
                 raise
         except OSError:
-            print('Could not open file. ')
+            raise FileNotFoundError(f"Could not open file: {filename}")
         
         
     def readSamples(self, n_blocks = None):
