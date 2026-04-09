@@ -38,7 +38,7 @@ The main goals of this repository are to:
 - Compute H-reflex and M-wave metrics
 - Generate recruitment curves
 - Save summary CSV outputs
-- Produce publication-ready plots
+
 
 ## Repository Structure
 
